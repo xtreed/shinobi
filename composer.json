@@ -1,11 +1,11 @@
 {
-    "name": "caffeinated/shinobi",
+    "name": "xtreed/shinobi",
     "description": "Laravel Roles and Permissions",
     "keywords": ["shinobi", "roles", "permissions", "auth", "laravel", "caffeinated"],
     "license": "MIT",
     "authors": [{
-        "name": "Shea Lewis",
-        "email": "shea.lewis89@gmail.com"
+        "name": "Dastan",
+        "email": "dastan@codeline.io"
     }],
     "require": {
         "php": "^7.2",
@@ -18,16 +18,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Caffeinated\\Shinobi\\Tests\\": "tests/"
+            "Xtreed\\Shinobi\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Caffeinated\\Shinobi\\ShinobiServiceProvider"
+                "Xtreed\\Shinobi\\ShinobiServiceProvider"
             ],
             "aliases": {
-                "Shinobi": "Caffeinated\\Shinobi\\Facades\\Shinobi"
+                "Shinobi": "Xtreed\\Shinobi\\Facades\\Shinobi"
             }
         }
     },
