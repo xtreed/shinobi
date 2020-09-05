@@ -5,7 +5,7 @@ namespace Caffeinated\Shinobi\Tactics;
 use Illuminate\Database\Eloquent\Model;
 use Caffeinated\Shinobi\Facades\Shinobi;
 
-class GivePermissionTo
+class RevokePermissionFrom
 {
     /**
      * @var array
