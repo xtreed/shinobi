@@ -5,7 +5,7 @@ namespace Caffeinated\Shinobi\Tactics;
 use Illuminate\Database\Eloquent\Model;
 use Caffeinated\Shinobi\Facades\Shinobi;
 
-class RevokePermissionsFrom
+class GivePermissionTo
 {
     /**
      * @var array
@@ -22,6 +22,11 @@ class RevokePermissionsFrom
         $this->permissions = array_flatten($permissions);
     }
 
+    /**
+     * Give the permissions to the given user or role.
+     * 
+     * @param  Role|User  $roleOrUser
+     */
     public function to($roleOrUser)
     {
         if ($roleOrUser instanceof Model) {
